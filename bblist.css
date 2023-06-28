@@ -1,0 +1,61 @@
+body {
+     font-family: Arial;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th , td {
+	padding-left: 20px;
+    padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+td.left {
+	text-align: left;
+}
+
+.a {
+	background-color: Dodgerblue;
+}
+
+.b {
+	background-color: Cyan;
+}
+
+.g {
+	background-color: gold;
+}
+
+.y {
+	background-color: yellow;
+}
+
+.creds {
+	font-weight: bold;
+}
+
+.rem {
+	font-weight: bold;
+	color: red;
+}
+
+tr.a:hover {
+	background-color: royalblue;
+	}
+	
+tr.b:hover {
+	background-color: darkturquoise;
+	}
+	
+tr.g:hover{
+	background-color: orange;
+}
+
+tr.y:hover{
+	background-color: darkorange;
+}
